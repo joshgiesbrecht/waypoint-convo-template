@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>F1522913-1C30-45E9-A413-35144F6CFB60</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Waypoint Conversation Template</title>
+            <author>Josh Giesbrecht</author>
+            <headline>An Interactive Cliche</headline>
+            <genre>Sample Story</genre>
+            <firstpublished>2016</firstpublished>
+            <description>An awkward man walks up to the bus stop. He's been coming to the same bus stop for months, and for the last seven weeks (and three days, eight minutes) she's been catching the same bus. Today he's finally going to beat his anxiety and speak to her. No big deal. Just a normal conversation.<br/>That's why he's got you prompting him over his Bluetooth from around the corner.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2016-12-06</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2016-12-06</originated>
+        </colophon>
+        <glulx>
+            <serial>161206</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </glulx>
+    </story>
+</ifindex>

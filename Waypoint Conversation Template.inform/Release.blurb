@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\josh\Documents\Inform\Projects\Waypoint Conversation Template.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\josh\Documents\Inform\Projects\Waypoint Conversation Template.inform"
+release to "C:\Users\josh\Documents\Inform\Projects\Waypoint Conversation Template.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Waypoint Conversation Template.gblorb"
+storyfile "C:\Users\josh\Documents\Inform\Projects\Waypoint Conversation Template.inform\Build\output.ulx" include
+ifiction "C:\Users\josh\Documents\Inform\Projects\Waypoint Conversation Template.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "F1522913-1C30-45E9-A413-35144F6CFB60"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2016"
+placeholder [TITLE] = "Waypoint Conversation Template"
+placeholder [AUTHOR] = "Josh Giesbrecht"
+placeholder [BLURB] = "An awkward man walks up to the bus stop. He's been coming to the same bus stop for months, and for the last seven weeks (and three days, eight minutes) she's been catching the same bus. Today he's finally going to beat his anxiety and speak to her. No big deal. Just a normal conversation.<br/>That's why he's got you prompting him over his Bluetooth from around the corner."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

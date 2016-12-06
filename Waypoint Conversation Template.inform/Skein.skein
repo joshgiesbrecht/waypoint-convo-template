@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02CC4188" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02CC4188"/>
+  <item nodeId="node-0x02CC4188">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">&#x000A;&#x000A;&#x000A;Waypoint Conversation Template&#x000A;An Interactive Cliche by Josh Giesbrecht&#x000A;Release 1 / Serial number 161118 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Blank Room&#x000A;You can see a Boring Man and a Lovely Woman here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02CC41F8"/>
+      <child nodeId="node-0x02CC4348"/>
+      <child nodeId="node-0x02CC4658"/>
+      <child nodeId="node-0x02CC47A8"/>
+      <child nodeId="node-0x02CC49D8"/>
+      <child nodeId="node-0x02D23540"/>
+      <child nodeId="node-0x02D23850"/>
+      <child nodeId="node-0x02D23000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC41F8">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CC3B68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC3B68">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02CC4348">
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(to yourself)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02CC4658">
+    <command xml:space="preserve">talk about stuff</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CC46C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC46C8">
+    <command xml:space="preserve">hello</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CC4738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC4738">
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(to yourself)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02CC47A8">
+    <command xml:space="preserve">say hi</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CC4818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC4818">
+    <command xml:space="preserve">mention greeting</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CC4A48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC4A48">
+    <command xml:space="preserve">mention this</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CC48F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC48F8">
+    <command xml:space="preserve">verbs</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02CC4968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02CC4968">
+    <command xml:space="preserve">mention greeting</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02CC49D8">
+    <command xml:space="preserve">say greetings</command>
+    <result xml:space="preserve">You stumble over that unfamiliar term and it just comes out a birdlike cry.&#x000A;&#x000A;&#x000A;*** Run-time problem P10: Since the Boring Man is not allowed the property "active", it is against the rules to try to use it.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D23540">
+    <command xml:space="preserve">say greeting</command>
+    <result xml:space="preserve">"Hey!" you say. "Greeting! Greeting!"&#x000A;&#x000A;You continue to focus on the topic at hand, but the Boring Man dismisses you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D23230"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D23230">
+    <command xml:space="preserve">say weather</command>
+    <result xml:space="preserve">"Hey!" you say. "Weather!"&#x000A;&#x000A;"Lovely weather we've had, isn't it?" says the man.&#x000A;&#x000A;"Yes, fantastic, I suppose, hmm," replies the woman, obviously disinterested.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D23620"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D23620">
+    <command xml:space="preserve">say name</command>
+    <result xml:space="preserve">"Hey!" you say. "Name!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D22F90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D22F90">
+    <command xml:space="preserve">say hmm</command>
+    <result xml:space="preserve">You stumble over that unfamiliar term and it just comes out a birdlike cry.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D23A10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D23A10">
+    <command xml:space="preserve">say greeting</command>
+    <result xml:space="preserve">"Hey!" you say. "Greeting!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D23770"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D23770">
+    <command xml:space="preserve">say something</command>
+    <result xml:space="preserve">You stumble over that unfamiliar term and it just comes out a birdlike cry.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D23690"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D23690">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart? </result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D23150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D23150">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">&#x000A;&#x000A;&#x000A;Waypoint Conversation Template&#x000A;An Interactive Fiction by Josh Giesbrecht&#x000A;Release 1 / Serial number 161108 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Blank Room&#x000A;You can see a Boring Man here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D232A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D232A0">
+    <command xml:space="preserve">say name</command>
+    <result xml:space="preserve">"Hey!" you say. "Name! Name!"&#x000A;&#x000A;"So, um, what's your name?" asks the man. "Grenelda," replies the woman. "Oh, um, that's, lovely," he stammered, then cursed himself under his breath.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D23850">
+    <command xml:space="preserve">x man</command>
+    <result xml:space="preserve">You see nothing special about the Boring Man.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D235B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D235B0">
+    <command xml:space="preserve">x woman</command>
+    <result xml:space="preserve">You see nothing special about the Lovely Woman.&#x000A;&#x000A;"Lovely weather we've had, isn't it?" says the man.&#x000A;&#x000A;"Yes, fantastic, I suppose, hmm," replies the woman, obviously disinterested.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02D23000">
+    <command xml:space="preserve">suggest name</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02D234D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02D234D0">
+    <command xml:space="preserve">say name</command>
+    <result xml:space="preserve">"Hey!" you say. "Name!"&#x000A;&#x000A;"So, um, what's your name?" asks the man. "Grenelda," replies the woman. "Oh, um, that's, lovely," he stammered, then cursed himself under his breath.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>NO</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
